@@ -1,8 +1,10 @@
 ## Welcome to GitHub Pages
+Miti Mazmudar
 
-You can use the [editor on GitHub](https://github.com/dettanym/personal-website-trial-run/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hi there! I am a PhD student in Computer Science at the University of Waterloo. I research privacy-enhancing technologies. My supervisor is [Ian Goldberg](https://cs.uwaterloo.ca/~iang/). I work at the [CrySP (Cryptography, Security and Privacy) lab](https://crysp.uwaterloo.ca)! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My [Masters thesis research](https://uwspace.uwaterloo.ca/handle/10012/14765) was focused on ensuring compliance of privacy policies with source code using trusted hardware platforms. Lately, I have been working on inferencers for differential privacy as well as censorship-resistant publishing systems. In general, I am interested in designing and implementing tools that help people protect their privacy!
+
 
 ### Markdown
 

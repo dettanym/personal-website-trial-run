@@ -1,7 +1,14 @@
-
-<h3>{{ page.title }}</h3>
-<strong>{{page.title}}</strong>
-<br>
-{{page.author | replace "Miti Mazmudar", "<b>Miti Mazmudar</b>"}}
-{{page.venue}}
-
+---
+layout: default
+---
+<ol>
+{% for pub in site.publications %}
+<li>
+    <strong>{{ pub.title }}</strong>
+    <strong>{{pub.venue}}</strong>
+    {{pub.author | replace "Miti Mazmudar", "<b>Miti Mazmudar</b>"}}
+    <br>
+    <p>{{ pub.content | markdownify }}</p>
+</li>
+{% endfor %}
+</ol>

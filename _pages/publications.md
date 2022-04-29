@@ -6,14 +6,9 @@ permalink: /publications/
 entries_layout: grid
 classes: wide
 ---
-<ol>
-{% for pub in site.publications %}
-<li>
-    <strong>{{ pub.title }}</strong>
-    <strong>{{pub.venue}}</strong>
-    {{pub.author | replace "Miti Mazmudar", "<b>Miti Mazmudar</b>"}}
-    <br>
-    <p>{{ pub.content | markdownify }}</p>
-</li>
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include default.html %}
 {% endfor %}
-</ol>

@@ -6,6 +6,8 @@ collections:
     output: true
     permalink: /:collection/:name/
 
+baseurl: /personal-website-trial-run
+
 includes:
   - _pages
 

@@ -2,7 +2,7 @@
 title: Research
 layout: collection
 collection: publications
-permalink: /publications/
+permalink: /personal-website-trial-run/publications/
 entries_layout: grid
 classes: wide
 ---

@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 collections:
   publications:
-    permalink: /:collection
+    permalink: /:collection/:path

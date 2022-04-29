@@ -2,3 +2,4 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 collections:
   publications:
     permalink: /:collection/:path
+plugins: [jekyll-include-cache]

@@ -1,7 +1,6 @@
 ---
 title: Research
 layout: collection
-permalink: /research/
 collection: publications
 entries_layout: grid
 classes: wide

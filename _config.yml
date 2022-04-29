@@ -7,7 +7,7 @@ collections:
     permalink: /:collection/:name/
 
 includes:
-  - "_pages"
+  - _pages
 
 defaults:
   # _publications
